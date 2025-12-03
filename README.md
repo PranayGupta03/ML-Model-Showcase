@@ -3,7 +3,7 @@
 
 # 🚀 ML Model Showcase
 
-A **full-stack machine learning web application** that lets users **interact with, test, and visualize** popular ML algorithms through a clean React frontend and a scalable Python Flask backend.
+A **full-stack machine learning web application** that lets users **interact with, test, and visualize** popular ML algorithms through a clean React frontend and a scalable Python Flask backend. 
 
 ---
 
