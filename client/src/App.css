@@ -1,0 +1,61 @@
+.dark {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --header-bg: linear-gradient(to right, #1f1f1f, #2d2d2d);
+  --header-text: #e0e0e0;
+  --input-bg: #2d2d2d;
+  --input-border: #444;
+  --input-text: #e0e0e0;
+  --button-bg: #4a90e2;
+  --button-hover: #357abd;
+  --button-text: #fff;
+  --title-color: #8ab4f8;
+  --section-shadow: #000;
+  --math-bg: #2d2d2d;
+  --math-text: #e0e0e0;
+  --sample-text: #aaa;
+}
+
+:root {
+  --bg-color: #f7f9fc;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.06);
+  --header-bg: linear-gradient(to right, #667eea, #764ba2);
+  --header-text: #fff;
+  --input-bg: #fff;
+  --input-border: #ccc;
+  --input-text: #333;
+  --button-bg: #007bff;
+  --button-hover: #0056b3;
+  --button-text: #fff;
+  --title-color: #003366;
+  --section-shadow: #e0e0e0;
+  --math-bg: #e6f2ff;
+  --math-text: #333;
+  --sample-text: gray;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.page-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px var(--shadow-color);
+  margin-top: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
